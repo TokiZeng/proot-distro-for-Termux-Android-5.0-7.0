@@ -10,11 +10,12 @@ Source: Downloaded from my GitHub, based on the latest Termux version.
 
 Download the Files
 First, download the following files to your Termux environment:
-
+```
 wget https://github.com/TokiZeng/proot-distro-for-Termux-Android-5.0-7.0/blob/main/proot-distro_4.16.0_all.deb
-
+```
+```
 wget https://github.com/TokiZeng/proot-distro-for-Termux-Android-5.0-7.0/blob/main/proot_5.1.107-65_aarch64.deb
-
+```
 Install proot
 Run the following command to install proot:
 

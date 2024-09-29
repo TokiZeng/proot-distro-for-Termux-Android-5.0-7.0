@@ -1,31 +1,37 @@
-proot-distro for Termux on Android 5.0-7.0
-These two files are compatible with proot-distro for Termux (Android 5.0-7.0) and can be manually installed on the older Termux version through the following steps:
+These two files are applicable for proot-distro on Termux (Android 5.0-7.0). Follow the steps below to manually install them on the older Termux version:
 
-Source: My GitHub, extracted from the latest version of Termux.
+Reference Article: Using Termux on Android to Create Your Linux Terminal
 
-1. Download the Files
-First, download both files into your Termux environment:
+If your system is Android 7.0 or above, you can use the method described in the article.
 
-bash
+For Android 5.0-7.0, you must use the following approach.
+
+Source: Downloaded from my GitHub, based on the latest Termux version.
+
+Download the Files
+First, download the following files to your Termux environment:
+
 wget https://github.com/TokiZeng/proot-distro-for-Termux-Android-5.0-7.0/blob/main/proot-distro_4.16.0_all.deb
+
 wget https://github.com/TokiZeng/proot-distro-for-Termux-Android-5.0-7.0/blob/main/proot_5.1.107-65_aarch64.deb
-2. Install proot
+
+Install proot
 Run the following command to install proot:
 
-bash
 apt install ./proot_5.1.107-65_aarch64.deb
-This will install the updated version of proot to resolve compatibility issues.
 
-3. Install proot-distro
-Next, install proot-distro using the command below:
+This will install an updated version of proot, solving compatibility issues.
 
-bash
+Install proot-distro
+Next, run the command below to install proot-distro:
+
 apt install ./proot-distro_4.16.0_all.deb
-This will install proot-distro and allow you to install and manage various Linux distributions within Termux.
 
-4. Verify the Installation
-After installation, you can check if proot-distro is working properly by running:
+This will install proot-distro, allowing you to install and manage various Linux distributions in Termux.
 
-bash
+Verify Everything is Working
+After the installation is complete, run the following command to confirm that proot-distro is functioning correctly:
+
 proot-distro list
-And that’s it! You can now successfully use proot-distro within Termux on Android 5.0-7.0!
+
+And that's it! You can now successfully use proot-distro on Termux for Android 5.0-7.0!

@@ -4,8 +4,6 @@ Reference Article: [Using Termux on Android to Create Your Linux Terminal](https
 
 For Android 5.0-7.0, you must use the following approach.
 
-Source: Downloaded from my GitHub, based on the latest Termux version.
-
 Download the Files
 First, download the following files to your Termux environment:
 ```

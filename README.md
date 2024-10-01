@@ -13,9 +13,7 @@ curl -L -o proot-distro_4.16.0_all.zip https://github.com/TokiZeng/proot-distro-
 ```
 unzip proot-distro_4.16.0_all.zip
 ```
-```
-pkg install libtalloc
-```
+
 Install proot
 Run the following command to install proot:
 ```

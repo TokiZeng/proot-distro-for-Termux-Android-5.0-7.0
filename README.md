@@ -7,10 +7,11 @@ For Android 5.0-7.0, you must use the following approach.
 Download the Files
 First, download the following files to your Termux environment:
 ```
-wget https://github.com/TokiZeng/proot-distro-for-Termux-Android-5.0-7.0/blob/main/proot-distro_4.16.0_all.deb
+curl -L -o proot-distro_4.16.0_all.zip https://github.com/TokiZeng/proot-distro-for-Termux-Android-5.0-7.0/raw/main/proot-distro_4.16.0_all.zip
 ```
+
 ```
-wget https://github.com/TokiZeng/proot-distro-for-Termux-Android-5.0-7.0/blob/main/proot_5.1.107-65_aarch64.deb
+unzip proot-distro_4.16.0_all.zip
 ```
 Install proot
 Run the following command to install proot:
